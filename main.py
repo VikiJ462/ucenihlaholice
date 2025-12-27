@@ -17,7 +17,7 @@ LESSONS = {
 # DATABASE
 # ======================
 
-db = sqlite3.connect("userprogress.sql")
+db = sqlite3.connect("DATA/userprogress.sql")
 cur = db.cursor()
 cur.execute("""
 CREATE TABLE IF NOT EXISTS progress (
